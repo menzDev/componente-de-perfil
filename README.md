@@ -12,7 +12,7 @@
   <img src="images/readme/post2.gif" alt="animación del botón compartir en modo movil" />
 </p>
 
-Ver en [Vercel](https://mendozalz.vercel.app/)
+Ver en [Vercel](https://componente-de-perfil.vercel.app/)
 
 ## 🚀 Card de perfil
 
