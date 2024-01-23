@@ -8,31 +8,59 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="styles.css">
   <title>Frontend Mentor | Article preview component</title>
-
 </head>
 
 <body>
+
   <div class="container">
-    <article class="texto">
-      <h1>shift the overall loog and feel by adding these wonderful touches to furnitrure in your home</h1>
-      <p>Ever been i na room and feit like something was missing? Perhaps it felt silghtly bare and uninvisting.I'lve
-        got some simple tips to help you make any room feel complete</p>
-    </article>
-    <div class="cajones">
-      <img src="images/drawers.jpg" alt="">
+    <div class="container__imagen">
+      <img class="container__imagen_img" src="images/drawers.jpg" alt="">
     </div>
-    <section class="perfiles">
-      
-      <section class="mujer-perfil"><img src="images/avatar-michelle.jpg" alt="foto de una chica">
-        <section class="texto-perfil">
+    <div class="container__description">
+      <article class="container__description__texto">
+        <h2>Shift the overall loog and feel by adding these wonderful touches to furnitrure in your home</h2>
+        <p>Ever been i na room and feit like something was missing? Perhaps it felt silghtly bare and uninvisting.I'lve
+          got some simple tips to help you make any room feel complete.
+        </p>
+      </article>
+      <section class="container__description_perfil">
+        <div class="container__description_avatar">
+          <img src="images/avatar-michelle.jpg" alt="foto de una chica">
+        </div>
+        <div class="container__description_description_perfil">
           <h5>Michelle Appleton</h5>
           <p>25 jun 2020</p>
-        </section>
-      </section>
-      <section class="redes"><img src="images/icon-share.svg" alt="foto de una mujer de pelo castaño"></section>
+        </div>
+        <!-- Tooltips -->
+        <div class="navigation">
+          <!--        <div class="menuToggle">
+            <img src="/images/icon-share.svg" alt="icono de compartir">
+          </div> -->
+          <input class="menuToggle" type="checkbox" id="toggle">
+          <label for="toggle">
+            <img src="/images/icon-share.svg">
+          </label>
+          <div class="menu">
+            <ul>
+              <li style="--i:0.1s">
+                <p>SHARE</p>
+              </li>
+              <li style="--i:0.2s"><a href="https://mendozalz.vercel.app/" target="_blank">
+                  <img class="svg" src="/images/WorldCode.svg" alt="icon-astro">
+                </a></li>
+              <li style="--i:0.3s"><a href="https://www.linkedin.com/in/mendozalz/" target="_blank">
+                  <img class="svg" src="/images/Linkeding.svg" alt="icon-vercel">
+                </a></li>
+              <li style="--i:0.4s"><a href="https://github.com/mendozalz" target="_blank">
+                  <img class="svg" src="/images/GithubLogo.svg" alt="icon-github">
+                </a></li>
+            </ul>
+          </div>
+        </div>
+        <!--  -->
       </section>
     </div>
-
+  </div>
 </body>
 
 </html>
